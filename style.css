@@ -20,7 +20,9 @@ body {
 .wrapper_style {
     width: 100%;
     max-width: 1960px;
-
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Diese Zeile zentriert den Wrapper */
 }
 
 /* ========== Header ========== */
