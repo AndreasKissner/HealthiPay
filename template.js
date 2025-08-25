@@ -113,6 +113,7 @@ function getTrashRandomTemplate(trashClientItem, trashIndex) {
   </div>
    <button onclick="moveFromTrashToArchiv(${trashIndex})">Move to Archiv</button>
   <button onclick="moveFromTrashtoPaid(${trashIndex})">Move back to paid</button>
+    <button onclick="deleteFromTrash(${trashIndex})">Delete Trash</button>
 </div>
   `
 }
